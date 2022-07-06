@@ -27,6 +27,7 @@ body{
 }
 .section-padding{
     margin: 10%;
+    margin-top: 0;
 }
 
 .button-style{
@@ -48,4 +49,32 @@ body{
     background-repeat: no-repeat;
     /* background-position: center; */
     /* width: 90%; */
+}
+.box{
+    width: 50%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-shadow: 0px 2px 20px gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+.box img{
+    width: 100%;
+}
+.data{
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(128, 128, 128, 0.384);
+    padding: 20px 0px 20px 90px;
+    margin: 0% 10% 5% 10%;
+    position: center;
+}
+.data h1{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.data h5{
+    margin-top: 0;
+}
+body{
+    margin: 0;
 }
